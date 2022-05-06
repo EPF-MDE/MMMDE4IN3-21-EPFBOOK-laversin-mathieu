@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<link rel="stylesheet" href="/style_students.css" type="text/css">
+<center>
+<body>
+    
+    <h1> Ici la page du joueur  <%= student.name %> </h1> 
+    <h2> Son école de prédilection avant de rentrer à l'om est  <%= student.school %> </h2> 
+    <h3> Son score de saison est de :  <%= student.score %> buts </h3> 
+    <img src="<%= student.url%>"/>
+    <h4> Details de la saison :   <%= student.details %>  </h4> 
+    <a href="/students/"><span style="color:red">Revenir aux joueurs </span>   </a> <br>
+    <a href="/formulaire/<%= student.id %>"><span style="color:red"> Changer les informations du joueur  </span>   </a> 
+    <marquee>Ce joueur est essentiel !</marquee>
+
+
+</body>
+</center>
+</html>

@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(45, 182, 79);
+  }
+  main {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  
+  @media (max-width: 1000px) {
+    p.long-text {
+      display: none;
+    }
+  }

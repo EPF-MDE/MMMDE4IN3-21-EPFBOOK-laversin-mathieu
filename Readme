@@ -1,0 +1,85 @@
+Introduction : 
+
+Here is the website developped to understand the basics of javascript and its extensions. 
+
+I'm Mathieu Laversin, a student in 4th year of engineering and I propose you my website developed thanks to the 6 tutorials seen during the module. 
+In order to have more interest on the development of the site, I decided to access it on the Olympic of marseille. This site is to be taken with a lot of 
+of derision. The exercise 0 has been implemented as a separate page. 
+
+It does not seem relevant to me to explain how certain steps were developed because indeed the steps are in the slideshows. 
+
+
+                                    ENJOY the project, now it's time for the ReadMe content 
+
+In order to enter the site, here are the accesses; 
+
+Clone the project.
+In the terminal : npm install and npm run dev     
+
+                                    User : 1
+                                   Password : tee
+
+                                           OR
+
+                                   User: test
+                                   Password: test
+
+Thanks to a cookie system, there will be no need to identify yourself a second time. 
+
+This description will be divided into 3 steps: 
+
+0. Exercise 0: 
+
+    - Objective: Recover in the API of R&M 
+
+    - Visualize the path in with the link on the home page 
+
+    - Explanation if you prefer the explanations in a ReadMe: To recuperate the information go in Insomnia
+    Thanks to the indications and the good referencing we can directly have what we want. For example with the command : 
+
+                                    GET : https://rickandmortyapi.com/api/character/5
+
+                                    Answer : Jerry Smith
+
+
+1. Exercise 1 (objective, reflection, path, improvements)
+
+    - Objective : Have a special page for each player of the equipment
+
+    - Reflection : have a link to a page with the player id as a parameter 
+
+    - Path : Creation of an endpoint on app.js and creation of a page profile = students_details
+                    In the creation of an endpoint get the ids, in order to reuse them and in the profile page, 
+                    Retrieve all the information of the player. 
+    
+    - Improvements : Implementation of the id directly at the creation of the player. With a method count of the lines + 1 éfféctué 
+
+2. Exercise 2 (reflection, path, improvements): 
+
+
+    -Objective: To be able to modify the student's information directly according to his Id. 
+
+    - Reflection : Creation of a POST method on a new Ejs page linked to an app.post
+
+    - Path : Modification of the csv, Creation of an endpoint on app.js and creation of a page profile = students_details
+                    In the creation of an endpoint get the ids, in order to reuse them and in the profile page, 
+                    Get all the information of the player. Modify them by creating a methodoe post and a new form page linked to the profile page
+                    Home page in order to have a comfort during the navigation of the site. 
+                    Since the csv was composed of several data that we wanted to keep and not change. It was necessary of the site
+                    to transofmer in array and then to search as an array before applying a splice method. 
+
+
+    - Disadvantages: When using the post method, it adds a row in the csv, adding a null player. 
+
+    - How to solve the problem? Probably a row count and delete the last row. Tests have been done but in vain. 
+
+3. Improvements of the site (visual, links..)
+
+    - Visual : Theme on the Olympic of marseille, Creation of links, setting up of gif. 
+
+    -Functional : Addition of the id incrementer in the method post thanks to a function recovered on stackoverflow
+
+    - Improvements of the csv by adding details for a real csv and a real soccer team. 
+
+
+

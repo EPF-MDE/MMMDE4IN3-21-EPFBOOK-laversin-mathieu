@@ -495,7 +495,7 @@ app.post("/formulaire/:id", (req, res) => {
       {id: 'details', title: 'details'},
       {id: 'url', title: 'url'}
   ],
-    path: '/Users/mathieu/Desktop/Data/Development/RENDU/students.csv'
+    path: 'students.csv'
 });
   csvWriter.writeRecords(students)       // returns a promise
     .then(() => {
